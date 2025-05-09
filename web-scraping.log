@@ -1,0 +1,16 @@
+2025-05-09 22:40:32,160 - INFO - Spreadsheet created successfully.
+2025-05-09 22:40:35,787 - INFO - Default sheet renamed.
+2025-05-09 22:40:36,853 - INFO - Second worksheet added.
+2025-05-09 22:40:38,178 - INFO - Initialized Chrome WebDriver.
+2025-05-09 22:40:43,007 - INFO - Navigated to Premier League stats page.
+2025-05-09 22:40:58,030 - INFO - Located the overview stats table.
+2025-05-09 22:41:07,105 - INFO - DataFrame created from table rows.
+2025-05-09 22:41:07,107 - INFO - Columns renamed successfully.
+2025-05-09 22:41:07,109 - INFO - Dropped 'Notes' column.
+2025-05-09 22:41:08,314 - INFO - Data updated in the 'Overview Table'.
+2025-05-09 22:41:09,691 - INFO - Initialized Chrome WebDriver.
+2025-05-09 22:41:50,334 - INFO - Navigated to Premier League stats page for goalkeepers.
+2025-05-09 22:42:05,389 - INFO - Keeper stats table located.
+2025-05-09 22:42:21,016 - INFO - Goalkeeper DataFrame created.
+2025-05-09 22:42:21,033 - INFO - Goalkeeper csv file created and saved.
+2025-05-09 22:42:23,457 - INFO - Driver closed.
