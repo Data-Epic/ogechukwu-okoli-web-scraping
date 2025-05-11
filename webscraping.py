@@ -18,7 +18,7 @@ logging.basicConfig(
     filemode='w' #mode for writing file
 )
 logger = logging.getLogger(__name__)
-
+url = "https://fbref.com/en/comps/9/Premier-League-Stats"
 # Base class for web scraping
 class PremierLeagueScraper:
     def __init__(self, driver_path):
@@ -39,7 +39,6 @@ class PremierLeagueScraper:
 
     def scrape_overviewtable(self):
         #try,except block to scrape data
-        url = "https://fbref.com/en/comps/9/Premier-League-Stats"
         try:
             self.driver.get(url)
             logger.info("Navigated to Premier League stats page.")
@@ -99,7 +98,6 @@ class PremierLeagueScraper:
 
     def scrape_squadgoalkeeper(self):
         # scraping goalkeepers table
-        url = "https://fbref.com/en/comps/9/Premier-League-Stats"
         try:
             self.driver.get(url) #initializing url
             logger.info("Navigated to Premier League stats page for goalkeepers.")# info message if successfully located goalkeepers table
