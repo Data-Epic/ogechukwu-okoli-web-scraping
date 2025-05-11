@@ -1,16 +1,22 @@
-2025-05-09 22:40:32,160 - INFO - Spreadsheet created successfully.
-2025-05-09 22:40:35,787 - INFO - Default sheet renamed.
-2025-05-09 22:40:36,853 - INFO - Second worksheet added.
-2025-05-09 22:40:38,178 - INFO - Initialized Chrome WebDriver.
-2025-05-09 22:40:43,007 - INFO - Navigated to Premier League stats page.
-2025-05-09 22:40:58,030 - INFO - Located the overview stats table.
-2025-05-09 22:41:07,105 - INFO - DataFrame created from table rows.
-2025-05-09 22:41:07,107 - INFO - Columns renamed successfully.
-2025-05-09 22:41:07,109 - INFO - Dropped 'Notes' column.
-2025-05-09 22:41:08,314 - INFO - Data updated in the 'Overview Table'.
-2025-05-09 22:41:09,691 - INFO - Initialized Chrome WebDriver.
-2025-05-09 22:41:50,334 - INFO - Navigated to Premier League stats page for goalkeepers.
-2025-05-09 22:42:05,389 - INFO - Keeper stats table located.
-2025-05-09 22:42:21,016 - INFO - Goalkeeper DataFrame created.
-2025-05-09 22:42:21,033 - INFO - Goalkeeper csv file created and saved.
-2025-05-09 22:42:23,457 - INFO - Driver closed.
+2025-05-11 14:00:11,220 - INFO - Initialized Chrome WebDriver.
+2025-05-11 14:00:28,062 - INFO - Navigated to Premier League stats page.
+2025-05-11 14:00:43,100 - INFO - Located the overview stats table.
+2025-05-11 14:00:51,514 - INFO - Overview DataFrame created.
+2025-05-11 14:00:51,518 - INFO - Columns renamed successfully.
+2025-05-11 14:00:51,520 - INFO - Dropped 'Notes' column.
+2025-05-11 14:00:54,154 - INFO - Navigated to Premier League stats page for goalkeepers.
+2025-05-11 14:01:09,178 - INFO - Keeper stats table located.
+2025-05-11 14:01:20,017 - INFO - Renaming files successful
+2025-05-11 14:01:20,025 - INFO - Goalkeeper CSV file created and saved.
+2025-05-11 14:01:20,063 - INFO - First few rows of DataFrame:
+                    Playing Time                     Performance                                              Penalty Kicks                   
+         Squad # Pl           MP Starts    Min   90s          GA  GA90 SoTA Saves Save%   W   D   L  CS   CS%         PKatt PKA PKsv PKm Save%
+0      Arsenal    1           35     35  3,150  35.0          31  0.89  108    77  74.1  18  13   4  12  34.3             3   3    0   0   0.0
+1  Aston Villa    2           36     36  3,240  36.0          49  1.36  145    95  66.9  18   9   9   8  22.2             2   1    1   0  50.0
+2  Bournemouth    3           36     36  3,240  36.0          43  1.19  167   124  76.6  14  11  11   8  22.2             4   4    0   0   0.0
+3    Brentford    2           36     36  3,240  36.0          53  1.47  194   144  73.2  16   7  13   8  22.2             1   1    0   0   0.0
+4     Brighton    2           36     36  3,240  36.0          56  1.56  140    86  65.7  14  13   9   8  22.2             8   8    0   0   0.0
+2025-05-11 14:01:22,301 - INFO - Driver closed.
+2025-05-11 14:01:27,233 - INFO - Spreadsheet 'Premier League Statistics for 2024-2025 Football Season' already exists.
+2025-05-11 14:01:30,095 - INFO - Overview Table updated in Google Sheets.
+2025-05-11 14:01:32,143 - INFO - Goalkeepers Table updated in Google Sheets with flattened headers.
