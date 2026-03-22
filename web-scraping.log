@@ -1,0 +1,22 @@
+2025-05-11 15:30:08,465 - INFO - Initialized Chrome WebDriver.
+2025-05-11 15:30:26,333 - INFO - Navigated to Premier League stats page.
+2025-05-11 15:30:41,357 - INFO - Located the overview stats table.
+2025-05-11 15:30:47,705 - INFO - Overview DataFrame created.
+2025-05-11 15:30:47,708 - INFO - Columns renamed successfully.
+2025-05-11 15:30:47,711 - INFO - Dropped 'Notes' column.
+2025-05-11 15:30:51,002 - INFO - Navigated to Premier League stats page for goalkeepers.
+2025-05-11 15:31:06,019 - INFO - Keeper stats table located.
+2025-05-11 15:31:13,627 - INFO - Renaming files successful
+2025-05-11 15:31:13,654 - INFO - Goalkeeper CSV file created and saved.
+2025-05-11 15:31:13,725 - INFO - First few rows of DataFrame:
+                    Playing Time                     Performance                                              Penalty Kicks                   
+         Squad # Pl           MP Starts    Min   90s          GA  GA90 SoTA Saves Save%   W   D   L  CS   CS%         PKatt PKA PKsv PKm Save%
+0      Arsenal    1           35     35  3,150  35.0          31  0.89  108    77  74.1  18  13   4  12  34.3             3   3    0   0   0.0
+1  Aston Villa    2           36     36  3,240  36.0          49  1.36  145    95  66.9  18   9   9   8  22.2             2   1    1   0  50.0
+2  Bournemouth    3           36     36  3,240  36.0          43  1.19  167   124  76.6  14  11  11   8  22.2             4   4    0   0   0.0
+3    Brentford    2           36     36  3,240  36.0          53  1.47  194   144  73.2  16   7  13   8  22.2             1   1    0   0   0.0
+4     Brighton    2           36     36  3,240  36.0          56  1.56  140    86  65.7  14  13   9   8  22.2             8   8    0   0   0.0
+2025-05-11 15:31:16,176 - INFO - Driver closed.
+2025-05-11 15:31:20,274 - INFO - Spreadsheet 'Premier League Statistics for 2024-2025 Football Season' already exists.
+2025-05-11 15:31:22,905 - INFO - Overview Table updated in Google Sheets.
+2025-05-11 15:31:24,814 - INFO - Goalkeepers Table updated in Google Sheets with flattened headers.
